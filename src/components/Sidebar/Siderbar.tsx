@@ -68,7 +68,7 @@ const navs = [
   {
     title: "Dashboard",
     icon: <DashboardCustomizeOutlinedIcon />,
-    path: "/",
+    path: "/dashboard",
   },
   {
     title: "Users",

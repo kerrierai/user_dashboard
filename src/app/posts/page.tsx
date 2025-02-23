@@ -1,12 +1,5 @@
-"use client";
-
-import dynamic from "next/dynamic";
-
-const LazyPostList = dynamic(
-  () => import("@/components/table/PostList/PostList"),
-  { ssr: false }
-);
+import PostList from "@/components/table/PostList/PostList";
 
 export default function PostsPage() {
-  return <LazyPostList />;
+  return <PostList />;
 }

@@ -1,3 +1,5 @@
+"use client";
+
 import { useQuery } from "@tanstack/react-query";
 import { fetchUsers } from "@/services/services";
 import { QUERY_KEYS } from "@/services/keys";
